@@ -24,6 +24,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   height: 540px;
+  border-radius: 2px;
 }
 
 h1 {
