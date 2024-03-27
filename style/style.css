@@ -12,8 +12,10 @@ body {
   background: var(--primary-color);
 }
 
-.container {
+.wrapper {
   max-width: 90%;
+  display: block;
+  margin: 0 auto;
 }
 
 header {
@@ -41,4 +43,12 @@ p {
   font-size: 21px;
   line-height: 1.5;
   color: var(--third-color);
+}
+
+.row p {
+  font-size: 18px;
+}
+
+.row h2 {
+  font-size: 50px;
 }
