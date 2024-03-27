@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #59465a;
-  --secondary-color: #2f1930;
+  --primary-color: #262127;
+  --secondary-color: #fce6d5;
 
-  --third-color: #908190;
+  --third-color: rgba(255, 227, 200, 0.7);
   --optional-color: #726073;
   --default-font-family: "Inter", sans-serif;
 }
@@ -17,7 +17,11 @@ body {
 }
 
 header {
-  padding: 10px 0;
+  padding: 200px 0;
+  background-image: url("../images/stage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 540px;
 }
 
 h1 {
@@ -29,12 +33,12 @@ h1 {
 }
 
 h2 {
-  font-size: 64px;
+  font-size: 55px;
   color: var(--secondary-color);
 }
 
 header p {
-  font-size: 24px;
+  font-size: 21px;
   line-height: 1.5;
   color: var(--third-color);
 }
