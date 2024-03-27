@@ -65,3 +65,21 @@ p {
   opacity: 1;
   filter: grayscale(0%);
 }
+
+@media (max-width: 960px) {
+  header {
+    background-image: url("../images/just-beatriz.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+  header h2 {
+    font-size: 40px;
+  }
+  header p {
+    font-size: 20px;
+  }
+}
