@@ -52,3 +52,12 @@ p {
 .row h2 {
   font-size: 50px;
 }
+
+.row img {
+  opacity: 0.6;
+}
+
+.row img:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}
