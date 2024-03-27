@@ -55,6 +55,9 @@ p {
 
 .row img {
   opacity: 0.6;
+  border-radius: 2px;
+
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 .row img:hover {
