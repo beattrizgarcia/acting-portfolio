@@ -82,4 +82,7 @@ p {
   header p {
     font-size: 20px;
   }
+  .row {
+    padding: 0 20px 0;
+  }
 }
