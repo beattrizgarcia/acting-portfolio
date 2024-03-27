@@ -1,10 +1,10 @@
 :root {
   --primary-color: #262127;
-  --secondary-color: #fce6d5;
+  --secondary-color: rgb(241, 224, 217);
 
-  --third-color: rgba(255, 227, 200, 0.7);
+  --third-color: rgb(249, 215, 184);
   --optional-color: #726073;
-  --default-font-family: "Inter", sans-serif;
+  --default-font-family: "Tauri", sans-serif;
 }
 
 body {
@@ -33,15 +33,16 @@ h1 {
   font-size: 64px;
   line-height: 1.5;
   color: var(--secondary-color);
+  font-family: "Reddit Mono", monospace;
 }
 
 h2 {
-  font-size: 55px;
+  font-size: 50px;
   color: var(--secondary-color);
 }
 
 p {
-  font-size: 21px;
+  font-size: 20px;
   line-height: 1.5;
   color: var(--third-color);
 }
