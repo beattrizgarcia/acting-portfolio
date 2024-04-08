@@ -66,7 +66,8 @@ p {
   opacity: 1;
   filter: grayscale(0%);
 }
-.about-section {
+
+.content-container {
   padding: 100px 20px;
 }
 
@@ -90,20 +91,24 @@ p {
   .row {
     padding: 0 20px 0;
   }
-  .about-section {
+  .content-container {
     padding: 0;
   }
 }
 
-.about-section h1 {
+.content-container h1 {
   text-align: start;
   font-size: 50px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 30px;
 }
 
-.about-content {
+.content-container {
+  margin: 30px;
+}
+
+.content {
   margin: 30px;
 }
