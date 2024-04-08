@@ -66,6 +66,9 @@ p {
   opacity: 1;
   filter: grayscale(0%);
 }
+.about-section {
+  padding: 100px 20px;
+}
 
 @media (max-width: 960px) {
   header {
@@ -87,10 +90,9 @@ p {
   .row {
     padding: 0 20px 0;
   }
-}
-
-.about-section {
-  padding: 100px 20px;
+  .about-section {
+    padding: 0;
+  }
 }
 
 .about-section h1 {
