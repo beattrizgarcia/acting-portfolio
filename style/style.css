@@ -41,6 +41,12 @@ h2 {
   color: var(--secondary-color);
 }
 
+h3 {
+  font-size: 30px;
+  line-height: 1;
+  color: var(--secondary-color);
+}
+
 p {
   font-size: 20px;
   line-height: 1.5;
@@ -108,4 +114,12 @@ p {
 
 .content {
   margin: 30px;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+.contact-container a {
+  color: var(--optional-color);
 }
