@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #262127;
+  --primary-color: rgb(38, 33, 39);
   --secondary-color: rgb(241, 224, 217);
 
   --third-color: rgb(249, 215, 184);
@@ -53,6 +53,43 @@ p {
   color: var(--third-color);
 }
 
+nav {
+  padding: 20px 0;
+
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  color: var(--secondary-color);
+  list-style: none;
+  padding-left: 10px;
+}
+
+nav li.active a {
+  color: var(--third-color);
+  text-decoration: solid;
+}
+
+nav p {
+  color: var(--secondary-color);
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(241, 224, 217, 0.7);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: var(--third-color);
+}
+
 .row p {
   font-size: 18px;
 }
@@ -79,6 +116,9 @@ p {
 }
 
 @media (max-width: 960px) {
+  .wrapper {
+    max-width: 70%;
+  }
   header {
     background-image: url("../images/just-beatriz.jpg");
     background-size: cover;
@@ -86,21 +126,25 @@ p {
   }
 
   h1 {
-    font-size: 50px;
-  }
-  header h2 {
     font-size: 40px;
   }
+  header h2 {
+    display: none;
+  }
   header p {
-    font-size: 20px;
+    display: none;
   }
 
-  .row {
-    padding: 0 20px 0;
+  nav p {
+    display: none;
   }
-  .content-container {
-    padding: 0;
-  }
+}
+
+.row {
+  padding: 0 20px 0;
+}
+.content-container {
+  padding: 0;
 }
 
 .content-container h1 {
