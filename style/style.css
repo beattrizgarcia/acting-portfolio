@@ -3,7 +3,7 @@
   --secondary-color: rgb(241, 224, 217);
 
   --third-color: rgb(249, 215, 184);
-  --optional-color: #726073;
+  --optional-color: rgb(114, 96, 115);
   --default-font-family: "Tauri", sans-serif;
 }
 
@@ -47,6 +47,11 @@ h3 {
   color: var(--secondary-color);
 }
 
+h4 {
+  color: var(--secondary-color);
+  font-size: 48px;
+}
+
 p {
   font-size: 20px;
   line-height: 1.5;
@@ -55,7 +60,6 @@ p {
 
 nav {
   padding: 20px 0;
-
 }
 
 nav ul {
@@ -115,6 +119,51 @@ nav a:hover {
   padding: 100px 20px;
 }
 
+footer {
+  margin: 50px 0;
+}
+
+.contact-box {
+  background: rgba(114, 96, 115, 0.5);
+
+  padding: 30px 120px;
+  border-radius: 2px;
+}
+
+.contact-box p {
+  margin: 0;
+  color: var(--primary-color);
+}
+
+.contact-box .contact-button {
+  padding: 20px 30px;
+  font-size: 18px;
+}
+
+.email-link {
+  color: var(--optional-color);
+  font-size: 24px;
+  transition: all 100ms ease-in-out;
+}
+
+.email-link:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  padding: 10px;
+  font-size: 25px;
+  transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+  font-size: 30px;
+  opacity: 0.7;
+}
+
 @media (max-width: 960px) {
   .wrapper {
     max-width: 70%;
@@ -137,6 +186,18 @@ nav a:hover {
 
   nav p {
     display: none;
+  }
+
+  .contact-box {
+    padding: 30px;
+  }
+  .contact-box h4 {
+    font-size: 20px;
+  }
+
+  .contact-box .contact-button {
+    padding: 20px 0;
+   
   }
 }
 
