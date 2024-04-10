@@ -164,6 +164,21 @@ footer {
   opacity: 0.7;
 }
 
+.final-text {
+  font-size: 12px;
+  color: var(--secondary-color);
+}
+
+.final-text a {
+  text-decoration: none;
+  color: var(--third-color);
+}
+
+.final-text a:hover {
+  text-decoration: underline;
+}
+
+
 @media (max-width: 960px) {
   .wrapper {
     max-width: 70%;
@@ -198,6 +213,10 @@ footer {
   .contact-box .contact-button {
     padding: 20px 0;
    
+  }
+  .final-text {
+    text-align: center;
+    font-size: 11px;
   }
 }
 
