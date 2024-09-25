@@ -178,7 +178,6 @@ footer {
   text-decoration: underline;
 }
 
-
 @media (max-width: 960px) {
   .wrapper {
     max-width: 70%;
@@ -202,11 +201,10 @@ footer {
   nav p {
     display: none;
   }
-  
+
   .content-container {
     text-align: center;
   }
-
 
   .contact-box {
     padding: 30px;
@@ -217,7 +215,6 @@ footer {
 
   .contact-box .contact-button {
     padding: 20px 0;
-   
   }
   .final-text {
     text-align: center;
